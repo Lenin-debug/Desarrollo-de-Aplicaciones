@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>/// $\lambda$ - P L A T F O R M - C O N T R O L ///</title>
+    <link rel="stylesheet" href="1.css"> 
+</head>
+<body>
+
+    <div id="main-container">
+        <div id="screen-1">
+            <div class="header">
+                <img 
+                    src="URL_DE_TU_IMAGEN.png" 
+                    alt="Logo del Sistema" 
+                    class="logo-img" 
+                    id="logo-placeholder"
+                /> 
+                <h1 class="title">C O N T R O L<br/> S Y S T E M</h1>
+            </div>
+            
+            <div class="interface-box">
+                <p>// ** S T A T U S : R E A D Y ** //</p>
+                
+                <button class="start-button glowing" id="startButton">
+                    &gt;&gt; A C T I V A T E &lt;&lt;
+                </button>
+                
+                <div class="console" id="console-output">
+                    </div>
+            </div>
+
+            <div class="status-bar">
+                UNIT: Beta-01 | PROTOCOL: Online | Build v4.0.4 - [OCT 2077]
+            </div>
+        </div>
+
+        <div id="screen-2" style="display: none;">
+             <div class="header">
+                <img 
+                    src="URL_DE_TU_IMAGEN.png" 
+                    alt="Logo del Sistema" 
+                    class="logo-img" 
+                    id="logo-placeholder-2"
+                /> 
+                <h1 class="title" style="font-size: 2.5em;">E N C O R E<br/> P R O T O C O L S</h1>
+            </div>
+
+            <div class="interface-box" style="padding: 20px;">
+                <p style="margin-bottom: 20px; font-size: 0.9em;">// ** S E L E C T - H A Z A R D ** //</p>
+                
+                <div id="button-grid">
+                    </div>
+
+                <button class="start-button" id="backToScreen1Button" style="width: auto; margin-top: 30px; padding: 10px 30px; background-color: #555555; box-shadow: 0 0 5px #ff00ff;">
+                    &lt;&lt; C A N C E L
+                </button>
+            </div>
+            
+            <div class="status-bar" id="status-bar-2">
+                STATUS: Sub-Menu Active | Select Hazard Destination...
+            </div>
+        </div>
+        
+        <div id="screen-3" style="display: none;">
+             <div class="header">
+                <img 
+                    src="URL_DE_TU_IMAGEN.png" 
+                    alt="Logo del Sistema" 
+                    class="logo-img" 
+                    id="logo-placeholder-3"
+                /> 
+                <h1 class="title" style="font-size: 2.5em;">H A Z A R D<br/> F I L E</h1>
+            </div>
+
+            <div class="interface-box" style="padding: 20px;">
+                <p style="margin-bottom: 20px; font-size: 0.9em;">// ** D A T A - P A C K E T - 0 1 ** //</p>
+                
+                <div class="hazard-file-box">
+                    <h3>D A T A - B L O C K : S H I R T S _ D S C N T</h3>
+                    
+                    <p class="main-text">
+                        Una tienda ha puesto en venta de camisas ofreciendo un descuento, por temporada de verano, denominado 7% + 7%. 
+                        Los cálculos se efectúan de la siguiente manera:
+                    </p>
+                    
+                    <ul class="calculation-list">
+                        <li>El importe de la compra es igual al producto del precio de la camisa por la cantidad de unidades adquiridas.</li>
+                        <li>El importe del primer descuento es igual al 7% del importe de la compra.</li>
+                        <li>El importe del segundo descuento es igual al 7% de lo que queda de restar el importe de la compra menos el importe del primer descuento.</li>
+                        <li>El importe del descuento total es igual a la suma de los dos descuentos anteriores.</li>
+                        <li>El importe por pagar es igual al importe de la compra menos el importe del descuento total.</li>
+                    </ul>
+                </div>
+                
+                <div id="results-panel">
+                    <div class="console" id="detail-console">
+                        <span class="log-info console-line">> [SYSTEM]: Detail Console Ready.</span>
+                        <span class="log-warning console-line">> [INFO]: Calculation logic loaded. (Current Data Packet: 01)</span>
+                    </div>
+                    <div class="console" id="log-console">
+                        <span class="log-info console-line">> [00:00:00] Initializing Transaction Log...</span>
+                        <span class="log-success console-line">> [LOG]: Console link established.</span>
+                    </div>
+                </div>
+
+                <button id="downloadDataButton">
+                    <span style="font-size: 1.5em; vertical-align: middle;">⬇</span> D O W N L O A D - P D F 
+                </button>
+
+                <a href="https://github.com/Lenin-debug/Desarrollo-de-Aplicaciones" target="_blank" id="githubButton">
+                    <span style="font-size: 1.5em; vertical-align: middle;">🚀</span> G I T H U B - P R O F I L E
+                </a>
+                <button class="start-button" id="backToScreen2Button" style="width: auto; margin-top: 10px; padding: 10px 30px; background-color: #555555; box-shadow: 0 0 5px var(--cyber-blue);">
+                    &lt;&lt; R E T U R N
+                </button>
+            </div>
+            
+            <div class="status-bar" id="status-bar-3">
+                STATUS: File Loaded | Data integrity check: OK
+            </div>
+        </div>
+
+    </div>
+
+    <script src="1.js"></script>
+
+</body>
+</html>
