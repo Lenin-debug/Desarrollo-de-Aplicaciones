@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>https://lenin-debug.github.io/Desarrollo-de-Aplicaciones/</title>
+    <link rel="stylesheet" href="1.css"> 
+</head>
+<body>
+
+    <div id="main-container">
+        <div id="screen-1">
+            <div class="header">
+                <img 
+                    src="https://i.postimg.cc/N0c5J2tG/images-removebg-preview-1.png" 
+                    alt="Logo del Sistema" 
+                    class="logo-img" 
+                    id="logo-placeholder"
+                /> 
+                <h1 class="title">DESARROLLO DE <br/> APLICACIONES </h1>
+            </div>
+            
+            <div class="interface-box">
+                <p>// ** Nonalaya Mayta Lenin Ilder ** //</p>
+                
+                <div id="main-buttons">
+                    <button class="start-button glowing" id="startButton">
+                        &gt;&gt; ACTIVAR &lt;&lt;
+                    </button>
+                    <button class="start-button" id="knowledgeButton">
+                        $\omega$ K N O W L E D G E
+                    </button>
+                </div>
+                
+                <div class="console" id="console-output">
+                    </div>
+            </div>
+
+            <div class="status-bar">
+                © 2025 - Portafolio de Desarrollo de Aplicaciones
+
+Universidad Peruana Los Andes
+            </div>
+        </div>
+
+        <div id="screen-2" style="display: none;">
+             <div class="header">
+                <img 
+                    src="URL_DE_TU_IMAGEN.png" 
+                    alt="Logo del Sistema" 
+                    class="logo-img" 
+                    id="logo-placeholder-2"
+                /> 
+                <h1 class="title" style="font-size: 2.5em;">MI SEMANA<br/> DE APRENDIZAJE</h1>
+            </div>
+
+            <div class="interface-box" style="padding: 20px;">
+                <p style="margin-bottom: 20px; font-size: 0.9em;">// ** SELECCIONE LA SEMANA ** //</p>
+                
+                <div id="button-grid">
+                    </div>
+
+                <button class="start-button" id="backToScreen1Button" style="width: auto; margin-top: 30px; padding: 10px 30px; background-color: #555555; box-shadow: 0 0 5px #ff00ff;">
+                    &lt;&lt; RECONEXION 
+                </button>
+            </div>
+            
+            <div class="status-bar" id="status-bar-2">
+                STATUS: Sub-Menu Active | Select Hazard Destination...
+            </div>
+        </div>
+        
+        <div id="screen-3" style="display: none;">
+             <div class="header">
+                <img 
+                    src="URL_DE_TU_IMAGEN.png" 
+                    alt="Logo del Sistema" 
+                    class="logo-img" 
+                    id="logo-placeholder-3"
+                /> 
+                <h1 class="title" style="font-size: 2.5em;">CLASES<br/> F I L E</h1>
+            </div>
+
+            <div class="interface-box" style="padding: 20px;">
+                <p style="margin-bottom: 20px; font-size: 0.9em;" id="dataPacketTitle">// ** SEMANA - 0 1 ** //</p>
+                
+                <div class="hazard-file-box">
+                    <h3 id="dataPacketSubtitle">D A T A - B L O C K : S H I R T S _ D S C N T</h3>
+                    
+                    <p class="main-text" id="dataPacketDescription">
+                        Una tienda ha puesto en venta de camisas ofreciendo un descuento...
+                    </p>
+                    
+                    <ul class="calculation-list" id="dataPacketList">
+                        <li>El importe de la compra es igual al producto del precio de la camisa por la cantidad de unidades adquiridas.</li>
+                        </ul>
+                </div>
+                
+                <div id="results-panel">
+                    <div class="console" id="detail-console">
+                        <span class="log-info console-line">> [SYSTEM]: Detail Console Ready.</span>
+                        <span class="log-warning console-line">> [INFO]: Calculation logic loaded. (Current Data Packet: 01)</span>
+                    </div>
+                    <div class="console" id="log-console">
+                        <span class="log-info console-line">> [00:00:00] Initializing Transaction Log...</span>
+                        <span class="log-success console-line">> [LOG]: Console link established.</span>
+                    </div>
+                </div>
+
+                <button id="githubButton" style="margin-top: 30px;">
+                    <span style="font-size: 1.5em; vertical-align: middle;">🚀</span> G I T H U B
+                    <a id="githubLink" href="#" target="_blank" style="display: none;"></a>
+                </button>
+                
+                <button class="start-button" id="backToScreen2Button" style="width: auto; margin-top: 10px; padding: 10px 30px; background-color: #555555; box-shadow: 0 0 5px var(--cyber-blue);">
+                    &lt;&lt; R E T U R N
+                </button>
+            </div>
+            
+            <div class="status-bar" id="status-bar-3">
+                STATUS: File Loaded | Data integrity check: OK
+            </div>
+        </div>
+        
+        <div id="screen-4" style="display: none;">
+             <div class="header">
+                <img 
+                    src="https://i.postimg.cc/N0c5J2tG/images-removebg-preview-1.png" 
+                    alt="Logo del Sistema" 
+                    class="logo-img" 
+                    id="logo-placeholder-4"
+                /> 
+                <h1 class="title" style="font-size: 2.5em;">Github<br/> </h1>
+            </div>
+
+            <div class="interface-box" style="padding: 20px; text-align: left;">
+                <p style="margin-bottom: 20px; font-size: 0.9em;">// 😊 //</p>
+                
+                <div id="knowledge-content">
+                    <div class="knowledge-topic">
+                        <h3>T E M A 0 1 : ¿Que es Github?</h3>
+                        <p>GitHub es la **plataforma web líder** para el **alojamiento de código fuente** y la **colaboración** entre desarrolladores, funcionando sobre el sistema de control de versiones **Git**. Su propósito principal es permitir a equipos y comunidades (especialmente en proyectos de código abierto) rastrear, gestionar y fusionar eficientemente los cambios realizados en el software a lo largo del tiempo, manteniendo un historial completo de cada modificación. Esto se logra mediante herramientas esenciales como los **Pull Requests**, que permiten a los usuarios proponer y revisar cambios antes de integrarlos al proyecto principal.
+
+En esencia, GitHub toma la potencia del motor de control de versiones **Git** y lo complementa con una interfaz social y de gestión de proyectos, creando un centro global donde millones de desarrolladores pueden contribuir, reportar errores (Issues), compartir conocimiento y gestionar todo el ciclo de vida del desarrollo de software de manera organizada y transparente, ya sea para proyectos privados o de código abierto. </p>
+                    </div>
+                    <div class="knowledge-topic">
+                        <h3>T E M A 0 2 : Como usar GitHub</h3>
+                        <p>Usar **GitHub** esencialmente requiere configurar la herramienta **Git** localmente para rastrear los cambios de tu proyecto y luego sincronizarlos con la plataforma web de GitHub. El proceso comienza instalando y configurando Git con tu identidad. Si empiezas un proyecto nuevo, usas `git init` y luego conectas tu carpeta local al repositorio remoto en GitHub usando `git remote add origin`. Si trabajas en un proyecto existente, simplemente lo descargas usando `git clone`.
+
+El ciclo de trabajo diario implica tres pasos clave: primero, preparas los archivos modificados con `git add .`; luego, guardas esos cambios en tu historial local con `git commit -m "Mensaje"`. Antes de subir tus contribuciones, obtienes las últimas actualizaciones de tus compañeros con `git pull origin main`, y finalmente, subes tus cambios al servidor de GitHub para colaborar con `git push origin main`. Para trabajar en nuevas funcionalidades sin alterar el código principal, utilizas ramas (`git checkout -b`), y la integración final de tu trabajo se realiza a través de una **Pull Request** en la plataforma web.</p>
+                    </div>
+                    <div class="knowledge-topic">
+                        <h3>T E M A 0 3 : ¿Como fue mi Experiencia al crear mi Cuenta En Github?</h3>
+                        <p>Crear una cuenta en GitHub es generalmente una experiencia rápida y directa. Simplemente ingresas a la página de registro, donde proporcionas un nombre de usuario único, una dirección de correo electrónico y una contraseña. La plataforma te guía con pasos claros, como verificar que no eres un robot y elegir un plan (generalmente el plan gratuito es suficiente para empezar). Una vez confirmado el correo electrónico, tu cuenta está activa, y puedes acceder inmediatamente a tu panel de control para empezar a crear o clonar tus primeros repositorios.</p>
+                    </div>
+                </div>
+
+                <button class="start-button" id="backToScreen1ButtonFrom4" style="width: auto; margin-top: 30px; padding: 10px 30px; background-color: #555555; box-shadow: 0 0 5px var(--color-primary);">
+                    &lt;&lt; R E T U R N - T O - M A I N
+                </button>
+            </div>
+            
+            <div class="status-bar" id="status-bar-4">
+                STATUS: Knowledge Base Active | Viewing Core Topics
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="1.js"></script>
+
+</body>
+</html>
